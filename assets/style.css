@@ -21,6 +21,7 @@ body#body {
 }
 
 .box-conteudo {
+    padding-top: 20px;
     margin-left: 15px;
     height: 512px;
     background: blueviolet;
@@ -36,8 +37,9 @@ Estilizando cabeçalho
 
 header {
     background: #F28e13;
-    padding: 15px 0;
-    height: 75px;
+    padding-top: 3px;
+    height: 90px;
+    
 }
 
 header nav ul {
@@ -51,19 +53,21 @@ header nav ul li {
 }
 header nav ul li a {
     color: #f2f2f2;
+    padding: 11px;
 }
 
 header nav ul li a:link {
     color: #f2f2f2;
     display: block;
     margin-right: 25px;
-    padding-bottom: 3px;
-    text-transform: uppercase;
 }
 
 header nav ul li a:hover {
-    background: #717171;
-
+    background: #c08747;
+    color: #f2f2f2;
+    border-radius: 31px;
+    text-align: center;
+    text-decoration: none;
 }
 
 
@@ -73,4 +77,5 @@ header nav ul li a:hover {
     background: #f2f2f2;
     object-fit: cover;
     float: left;
+    margin-left: 55px;
 }
