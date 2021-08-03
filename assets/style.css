@@ -1,6 +1,6 @@
 /************************
 Elementos de neutralização 
-*/
+
 
 * {
     margin: 0;
@@ -14,7 +14,7 @@ Elementos de neutralização
 
 /************************
 Estilizando o corpo do site
-*/
+
 
 body#body {
     width: 1200px;
@@ -33,7 +33,7 @@ body#body {
 
 /************************
 Estilizando cabeçalho
-*/
+
 
 header {
     background: #F28e13;
@@ -81,14 +81,4 @@ header nav ul li a:hover {
 }
 
 
-/************************
-Estilizando conteúdo principal
 */
-
-main {
-
-}
-
-main div.tela-inicial {
-    
-}
