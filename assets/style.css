@@ -5,7 +5,10 @@ Elementos de neutralização
 * {
     margin: 0;
     padding: 0;
-    font: 12px;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #717171;
 }
 
 
@@ -14,8 +17,6 @@ Estilizando o corpo do site
 */
 
 body#body {
-    background-color: aqua;
-    padding-left: 85px;
     width: 1200px;
 }
 
@@ -23,4 +24,53 @@ body#body {
     margin-left: 15px;
     height: 512px;
     background: blueviolet;
+}
+
+.clear {
+    clear: both;
+}
+
+/************************
+Estilizando cabeçalho
+*/
+
+header {
+    background: #F28e13;
+    padding: 15px 0;
+    height: 75px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 20px;
+    float: right;
+}
+
+header nav ul li {
+    float: left;
+}
+header nav ul li a {
+    color: #f2f2f2;
+}
+
+header nav ul li a:link {
+    color: #f2f2f2;
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    background: #717171;
+
+}
+
+
+.logo {
+    border-radius: 60px;
+    display: block;
+    background: #f2f2f2;
+    object-fit: cover;
+    float: left;
 }
