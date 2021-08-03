@@ -7,3 +7,20 @@ Elementos de neutralização
     padding: 0;
     font: 12px;
 }
+
+
+/************************
+Estilizando o corpo do site
+*/
+
+body#body {
+    background-color: aqua;
+    padding-left: 85px;
+    width: 1200px;
+}
+
+.box-conteudo {
+    margin-left: 15px;
+    height: 512px;
+    background: blueviolet;
+}
