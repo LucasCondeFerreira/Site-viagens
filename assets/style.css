@@ -92,6 +92,10 @@ header nav ul li a:hover {
     opacity: 0.9;
 }
 
+.black {
+    color: black;
+}
+
 .caixa {
     padding: 60px 0;
 	border-bottom: 1px solid #e5e5e5;
