@@ -70,15 +70,44 @@ header nav ul li a:hover {
     text-decoration: none;
 }
 
+*/
+#home {
+    padding: 200px 0;
+}
 
-.logo {
-    border-radius: 60px;
-    display: block;
-    background: #f2f2f2;
-    object-fit: cover;
-    float: left;
-    margin-left: 55px;
+.parallax {
+    background-image: url(../assets/imagens/IMG-8.jpg);
+    position: relative;
+    height: 100%;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
 }
 
 
-*/
+.color {
+    background: #F28e13;
+}
+
+.caixa {
+    padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.logo {
+    border-radius: 60px;
+    background: #f2f2f2;
+    object-fit: cover;
+    margin-left: 55px;
+}
+
+.imagem {
+    border-radius: 31px;
+}
+
+footer p a {
+	margin: 5px 15px;
+    text-decoration: none;
+}

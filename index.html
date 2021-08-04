@@ -22,356 +22,169 @@
     <title>Skywalks</title>
   </head>
   <body>
-    <div id="body">
+    <div>
        
-        <!-- JavaScript do Bootstrap -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
         <header> <!-- Início do cabeçalho -->
         
-            <div>
-                <!-- Logo -->
-                <a href="#"><img class="logo" src="/assets/imagens/logo.png" alt="Logo do site Skywalks" width="75px" height="75px"></a>
-                <!-- Fim do logo -->
-
-                <!-- Botões do cabeçalho -->
-                <nav class="nav" class="botoes">
-                    <ul>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Planos</a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Comece agora</a>
-                        </li>
-                    </ul>
-
-                </nav> <!-- Fim dos botões-->
-            </div>
-        </header> <!-- Fim do cabeçalho-->
+            <nav class="navbar navbar-expand-sm navbar-light color">
+                <div class="container">
+                
+                    <a href="#" class="navbar-brand">
+                        <img class="d-flex flex-row logo" src="/assets/imagens/logo.png" height="75px" width="142">
+                    </a>
+                    <div class="d-flex flex-row-reverse">
+                        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                
+                        <div class="collapse navbar-collapse" id="nav-principal">
+                            <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Planos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Sobre nós</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="btn btn-outline-light ml-4">Comprar agora</a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>        
+                </div>
+            </nav>
+        </header><!--/fim Cabecalho -->
+    
         
         <div class="clear"></div>
 
         <main><!-- Início do corpo do site-->
-
-            <!-- Início da tela inicial -->
-            <div class="tela-inicial">
-                <div>
-                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium iure nihil blanditiis</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae debitis inventore magni doloremque ex tempore ratione voluptates sint mollitia corrupti iusto laboriosam distinctio voluptatem, eligendi cupiditate, expedita perspiciatis. Fugiat, vero?</p>
-                    <div><a href="#"></a></div>
-                    <p>Um pequeno paragrafo</p>
-                    <p>Um pequeno paragrafo</p>
-                </div>
-            </div><!-- Fim da tela inicial -->
-
+            <div class="parallax">
+                <section id="home"><!-- Início seção home -->
+                    <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 d-flex"><!-- Textos da seção -->
+                        <div class="align-self-center">
+                            <h1 class="display-4">Suas viagens, descomplicadas</h1>
+                            <p>
+                            Usado por mais de 1 milhão de pessoas, o Skywalks é uma ferramenta online que vai facilitar sas suas viagens.
+                            </p>
+            
+                            <p>Também temos aplicativo!
+                            <a href="" class="btn btn-outline-black">
+                                <i class="fab fa-android fa-lg"></i>
+                            </a>
+                            <a href="" class="btn btn-outline-black">
+                                <i class="fab fa-apple"></i>
+                            </a>
+                            </p>
+            
+                        </div>
+                        </div><!--/fim textos da seção -->
+                </section><!--/fim seção home -->
+            </div>
         <!-- Início dos conteúdos do site -->
             
             <!-- Primeira área, com animação -->
-            <article class="box-conteudo">
-                <div>
-                    <div>
-                        <h2>Um titulo qualquer</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quasi nihil vero deserunt consequatur eaque accusantium magni in sit expedita, ut quaerat, laboriosam eligendi consequuntur perferendis nulla nemo aperiam recusandae.</p>
+            <section class="caixa"><!--/Início seção saiba -->
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6 d-flex">
+                      <div class="align-self-center">
+                        <h2>Saiba para onde vai o seu dinheiro</h2>
+                        <p>
+                          Com o Finans, você categoriza todos os seus lançamentos. Com gráficos simples, você sabe de onde vem e para onde vai o seu dinheiro.
+                        </p>
+                        <a href="" class="btn btn-primary">Veja mais</a>
+                      </div>
                     </div>
-
-                    <div>
-                        <img src="" alt="">
+                    <div class="imagem col-md-6">
+                      <img src="/assets/imagens/IMG-4.jpg" class="img-fluid">
                     </div>
+                  </div>
                 </div>
-            </article>
+              </section><!--/FIM seção saiba -->
 
             <!-- Segunda área, com íncones-->
-            <article class="box-conteudo">
-                <div>
-                    <img src="" alt="">
-                </div>            
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio magni explicabo iusto quaerat tenetur dicta ullam asperiores veritatis non voluptatem obcaecati molestias repellat perspiciatis, esse minus eaque? Atque, nisi sit.</p>
+            <section class="caixa"><!--/Início seção recursos -->
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img src="/assets/imagens/IMG-5.jpg" height="180px" class="img-fluid">
+                      <h4>Fácil de usar</h4>
+                      <p>
+                        O Finans vai além do básico e permite que você faça controles incríveis, essenciais para suas finanças. Simples como tem que ser!
+                      </p>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="/assets/imagens/IMG-7.jpg" height="180px" class="img-fluid">
+                      <h4>Economize seu tempo</h4>
+                      <p>
+                        Tempo é dinheiro! Em segundos, você tem tudo sob controle e aproveite seu tempo com o que realmente importa pra você!
+                      </p>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="/assets/imagens/IMG-6.jpg" height="180px" class="img-fluid">
+                      <h4>Suporte amigo</h4>
+                      <p>
+                        Dúvidas? Perguntas? Nosso suporte super legal ajuda você! A gente tá aqui pra resolver seus problemas e deixar sua vida bem mais fácil!
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                    <img src="" alt="">
-                </div>            
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio magni explicabo iusto quaerat tenetur dicta ullam asperiores veritatis non voluptatem obcaecati molestias repellat perspiciatis, esse minus eaque? Atque, nisi sit.</p>
-                </div>
-                <div>
-                    <img src="" alt="">
-                </div>            
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio magni explicabo iusto quaerat tenetur dicta ullam asperiores veritatis non voluptatem obcaecati molestias repellat perspiciatis, esse minus eaque? Atque, nisi sit.</p>
-                </div>
-                <div>
-                    <img src="" alt="">
-                </div>            
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio magni explicabo iusto quaerat tenetur dicta ullam asperiores veritatis non voluptatem obcaecati molestias repellat perspiciatis, esse minus eaque? Atque, nisi sit.</p>
-                </div>
-            </article>
+              </section><!--/FIM seção recursos -->
 
             <!-- Terceira área, com imagem invertida-->
-            <article class="box-conteudo">
-                <div>
-                    <h2>um titulo qualquer</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt nesciunt molestias debitis, repudiandae minus consectetur laborum, temporibus aspernatur harum ex laboriosam, fuga vel quisquam deserunt doloremque mollitia. Dignissimos, reiciendis autem!</p>
-                </div>
-
-                <div>
-                    <img src="" alt="">
-                </div>
-            </article>
-
-            <!-- Quarta área, com carrossel de conteúdos-->
-            <article class="box-conteudo"> 
-                <div>
-                    <h2>Um titulo qualquer</h2>
-                    <p>Aqui vai um carrosel de conteúdos que eu não sei fazer</p>
-                </div>
-            </article>
-
-            <!-- Quinta área, com carrossel de depoimentoss-->
-            <article class="box-conteudo"> 
-                <div>
-                    <h2>Um titulo qualquer</h2>
-                    <p>Aqui vai um carrosel de conteúdos que eu não sei fazer</p>
-                </div>
-            </article>
-
-            <!-- Sexta área, com animação -->
-            <article class="box-conteudo"> 
-                <div>
-                    <h2>Um titulo qualquer</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A possimus facere impedit ea. Quis sed accusantium minima ad impedit dolor iure odit voluptates, ut deserunt nihil quibusdam esse earum error!</p>
-                </div>
-
-                <div>
-                    <img src="#" alt="">
-                </div>
-            </article>
-
-            <!-- Sétima área, com os planos-->
-            <article class="box-conteudo">
-                <div>
-                    <h2>Um titulo qualquer</h2>
-                    <div>
-                        <h3>um subtitulo qualquer</h3>
+            <section class="caixa">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="/assets/imagens/IMG-6.jpg" class="img-fluid">
                     </div>
-                </div>
-
-                <div>
-                    <span>
-                        <h3>um pequeno titulo</h3>
-                    </span>
-                    <div>
-                        <h4>um titulozinho</h4>
-                        <p>um pouco de paragrafo</p>
-                        <p>mais um pouco de paragrafo</p>
-                        <a href="#">um botão</a>
-                        <div>
-                            <span>um icone</span>
-                            <p>um texto</p>
-
-                            <span>um icone</span>
-                            <p>um texto</p>
-
-                            <span>um icone</span>
-                            <p>um texto</p>
-
-                            <span>um icone</span>
-                            <p>um texto</p>
-
-                            <span>um icone</span>
-                            <p>um texto</p>
-                        </div>
+                    <div class="col-md-6 d-flex">
+                      <div class="align-self-center">
+                        <h2>Pare de pagar juros e economize</h2>
+                        <p>
+                          Manter as contas em dia é sempre um problema? O Finans avisa você: receba alertas de contas a pagar e a receber!
+                        </p>
+                        <a href="" class="btn btn-primary">Veja mais</a>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </section>
 
-                <div>
-                    <span>
-                        <h3>um pequeno titulo</h3>
-                    </span>
-                    <div>
-                        <h4>um titulozinho</h4>
-                        <p>um pouco de paragrafo</p>
-                        <p>mais um pouco de paragrafo</p>
-                        <a href="#">um botão</a>
-                        <div>
-                            <span>um icone</span>
-                            <p>um texto</p>
-
-                            <span>um icone</span>
-                            <p>um texto</p>
-
-                            <span>um icone</span>
-                            <p>um texto</p>
-
-                            <span>um icone</span>
-                            <p>um texto</p>
-
-                            <span>um icone</span>
-                            <p>um texto</p>
-                        </div>
+              <footer class="mt-4 mb-4">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-8">
+                      <p>
+                        <a href="">Home</a>
+                        <a href="">Planos</a>
+                        <a href="">Sobre nós</a>
+                      </p>
                     </div>
+                    <div class="col-md-4 d-flex justify-content-end">
+                      <a href="" class="btn btn-outline-dark">
+                        <i class="fab fa-facebook"></i>
+                      </a>
+                      <a href="" class="btn btn-outline-dark ml-2">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                      <a href="" class="btn btn-outline-dark ml-2">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                      <a href="" class="btn btn-outline-dark ml-2">
+                        <i class="fab fa-youtube"></i>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-
-                <div>
-                    <span>
-                        <h3>um pequeno titulo</h3>
-                    </span>
-                    <div>
-                        <h4>um titulozinho</h4>
-                        <p>um pouco de paragrafo</p>
-                        <p>mais um pouco de paragrafo</p>
-                        <a href="#">um botão</a>
-                        <div>
-                            <span>um icone</span>
-                            <p>um texto</p>
-
-                            <span>um icone</span>
-                            <p>um texto</p>
-
-                            <span>um icone</span>
-                            <p>um texto</p>
-
-                            <span>um icone</span>
-                            <p>um texto</p>
-
-                            <span>um icone</span>
-                            <p>um texto</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <span>
-                        <h3>um pequeno titulo</h3>
-                    </span>
-                    <div>
-                        <h4>um titulozinho</h4>
-                        <p>um pouco de paragrafo</p>
-                        <p>mais um pouco de paragrafo</p>
-                        <a href="#">um botão</a>
-                        <div>
-                            <span>um icone</span>
-                            <p>um texto</p>
-
-                            <span>um icone</span>
-                            <p>um texto</p>
-
-                            <span>um icone</span>
-                            <p>um texto</p>
-
-                            <span>um icone</span>
-                            <p>um texto</p>
-
-                            <span>um icone</span>
-                            <p>um texto</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <p>um pouco de <span>texto</span></p>
-                    <a href="#">Um botão</a>
-                </div>
-            </article>
-
-
-            <!-- Oitava área, com descrição do produto-->
-            <article class="box-conteudo">
-                <div>
-                    <div>
-                        <p>um pouquinho de texto</p>
-                    </div>
-
-                    <div>
-                        <a href="#">
-                            <p>um pouco</p>
-                            <p>de texto</p>
-                        </a>
-                    </div>
-
-                    <div>
-                        <p>mais textoooooooo!</p>
-                    </div>
-
-                    <div>
-                        <span>icone</span>
-                        <p>texto</p>
-
-                        <span>icone</span>
-                        <p>texto</p>
-
-                        <span>icone</span>
-                        <p>texto</p>
-
-                        <span>icone</span>
-                        <p>texto</p>
-
-                        <span>icone</span>
-                        <p>texto</p>
-
-                        <span>icone</span>
-                        <p>texto</p>
-
-                    </div>
-                </div>
-            </article>
-
-            <!-- Nona área, com chamada para ação-->
-            <article class="box-conteudo">
-                <div>
-                    <h1>Um titulo qualquer</h1>
-
-                    <a href="#">Um botão de agendar</a>
-                </div>
-            </article>
-
-            <!-- Fim dos conteúdos do site -->
-
-        </main> <!-- Fim do corpo do site -->
-
-
-
-        <footer> <!-- Início do rodapé -->
-        
-            <div> <!-- Início do menu do rodapé-->
-                <nav>
-                    <a href="#">Item 1</a>
-                    <a href="#">Item 2</a>
-                    <a href="#">Item 3</a>
-                    <a href="#">Item 4</a>
-                </nav>
-
-                <nav>
-                    <a href="#">Item 1</a>
-                    <a href="#">Item 2</a>
-                    <a href="#">Item 3</a>
-                    <a href="#">Item 4</a>
-                </nav>
-
-                <nav>
-                    <a href="#">Item 1</a>
-                    <a href="#">Item 2</a>
-                    <a href="#">Item 3</a>
-                    <a href="#">Item 4</a>
-                </nav>
-            </div><!-- Fim do menu do rodapé-->
-
-            <div>
-                <img src="#" alt="">
-                <p>Alguns conteúdos sobre direitos autorais</p>
-
-                <a href="#">rede social 1</a>
-                <a href="#">rede social 2</a>
-                <a href="#">rede social 3</a>
-                <a href="#">rede social 4</a>
-            </div>
-        </footer> <!-- Fim do rodapé-->
-    </div>
+              </footer>
+          
 
     <!-- JavaScript opicional do Bootstrap-->
 
