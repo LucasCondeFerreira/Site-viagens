@@ -89,6 +89,7 @@ header nav ul li a:hover {
 
 .color {
     background: #F28e13;
+    opacity: 0.9;
 }
 
 .caixa {
@@ -100,7 +101,6 @@ header nav ul li a:hover {
     border-radius: 60px;
     background: #f2f2f2;
     object-fit: cover;
-    margin-left: 55px;
 }
 
 .imagem {
