@@ -112,6 +112,17 @@ header nav ul li a:hover {
     border-radius: 31px;
 }
 
+.video {
+    margin: 0 0 10px 100px;
+    width: 400px;
+    height: 320px;
+    position: relative;
+}
+
+.mockup {
+    position: absolute;
+}
+
 footer p a {
 	margin: 5px 15px;
     text-decoration: none;
