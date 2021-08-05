@@ -112,19 +112,51 @@ header nav ul li a:hover {
     border-radius: 31px;
 }
 
+@media (max-width: 763px) {
+   
+    .div-video {
+        /* Esse elemento está aqui só para que eu posso me localizar */
+    }
 
-.video {
-    top: 12px;
-    left: 75px;
-    object-fit: cover;
-    z-index: 1;
-    width: 570px;
-    height: 320px;
-    position: relative;
-  }
+    .video {
+        top: 12px;
+        left: 75px;
+        object-fit: cover;
+        z-index: 1;
+        width: 250px;
+        height: 130px;
+        position: relative;
+    }
 
-.div-video .fundo-imagem {
-    position: absolute;
+    .div-video .fundo-imagem {
+        width: 310px;
+        height: 190px;
+        position: absolute;
+    }   
+}
+@media (min-width: 764px) {
+
+
+        
+    .div-video {
+        /* Esse elemento está aqui só para que eu posso me localizar */
+    }
+
+    .video {
+        top: 12px;
+        left: 75px;
+        object-fit: cover;
+        z-index: 1;
+        width: 570px;
+        height: 320px;
+        position: relative;
+    }
+
+    .div-video .fundo-imagem {
+        width: 720px;
+        height: 395px;
+        position: absolute;
+    }
 }
 
 footer p a {
