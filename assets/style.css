@@ -112,14 +112,18 @@ header nav ul li a:hover {
     border-radius: 31px;
 }
 
+
 .video {
-    margin: 0 0 10px 100px;
-    width: 400px;
+    top: 12px;
+    left: 75px;
+    object-fit: cover;
+    z-index: 1;
+    width: 570px;
     height: 320px;
     position: relative;
-}
+  }
 
-.mockup {
+.div-video .fundo-imagem {
     position: absolute;
 }
 
