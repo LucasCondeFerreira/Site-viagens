@@ -116,12 +116,13 @@ header nav ul li a:hover {
    
     .video {
         top: 13px;
-        left: 40px;
+        left: 34px;
         object-fit: cover;
         z-index: 1;
-        width: 365px;
-        height: 195px;
-        }
+        width: 302px;
+        height: 163px;
+    }
+    
     .imagem-2 {
         right: 2px;
     }
