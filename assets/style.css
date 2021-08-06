@@ -114,48 +114,27 @@ header nav ul li a:hover {
 
 @media (max-width: 763px) {
    
-    .div-video {
-        /* Esse elemento está aqui só para que eu posso me localizar */
-    }
-
     .video {
-        top: 12px;
-        left: 75px;
+        top: 13px;
+        left: 40px;
         object-fit: cover;
         z-index: 1;
-        width: 250px;
-        height: 130px;
-        position: relative;
+        width: 365px;
+        height: 195px;
+        }
+    .imagem-2 {
+        right: 2px;
     }
-
-    .div-video .fundo-imagem {
-        width: 310px;
-        height: 190px;
-        position: absolute;
-    }   
 }
 @media (min-width: 764px) {
 
-
-        
-    .div-video {
-        /* Esse elemento está aqui só para que eu posso me localizar */
-    }
-
     .video {
         top: 12px;
-        left: 75px;
+        left: 84px;
         object-fit: cover;
         z-index: 1;
         width: 570px;
-        height: 320px;
-        position: relative;
-    }
-
-    .div-video .fundo-imagem {
-        width: 720px;
-        height: 395px;
-        position: absolute;
+        height: 310px;
     }
 }
 
