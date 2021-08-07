@@ -112,29 +112,7 @@ header nav ul li a:hover {
     border-radius: 31px;
 }
 
-@media (max-width: 763px) {
-   
-    .div-video {
-        /* Esse elemento está aqui só para que eu posso me localizar */
-    }
 
-    .video {
-        top: 12px;
-        left: 75px;
-        object-fit: cover;
-        z-index: 1;
-        width: 250px;
-        height: 130px;
-        position: relative;
-    }
-
-    .div-video .fundo-imagem {
-        width: 310px;
-        height: 190px;
-        position: absolute;
-    }   
-}
-@media (min-width: 764px) {
 
 
         
@@ -142,22 +120,78 @@ header nav ul li a:hover {
         /* Esse elemento está aqui só para que eu posso me localizar */
     }
 
-    .video {
-        top: 12px;
-        left: 75px;
+    .video-1 {
+        top: 24px;
+        left: 87px;
         object-fit: cover;
         z-index: 1;
-        width: 570px;
-        height: 320px;
+        width: 557px;
+        height: 314px;
         position: relative;
     }
 
     .div-video .fundo-imagem {
-        width: 720px;
-        height: 395px;
+        width: 730px;
+        height: 475px;
         position: absolute;
     }
+
+    .div-botao a:hover {
+        transform: scale(1.080);
+    }
+
+.botao {
+    width: 225px;
+        padding: 0 10px;
+        /* fallback for old browsers */
+        background: #f27b13;
+      
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: -webkit-linear-gradient(to right, rgba(242, 123, 19, 1), rgba(242, 142, 19, 1));
+      
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, rgba(242, 123, 19, 1), rgba(242, 142, 19, 1))
 }
+
+.botao-1 {
+    width: 135px;
+        /* fallback for old browsers */
+        background: #f27b13;
+      
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: -webkit-linear-gradient(to right, rgba(242, 123, 19, 1), rgba(242, 142, 19, 1));
+      
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, rgba(242, 123, 19, 1), rgba(242, 142, 19, 1))
+}
+
+.div-texto-botao {
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.texto-abaixo {
+
+}
+
+.texto-abaixo-1 {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+
+            /* fallback for old browsers */
+            color: #f27b13;
+      
+            /* Chrome 10-25, Safari 5.1-6 */
+            color: -webkit-linear-gradient(to right, rgba(242, 123, 19, 1), rgba(242, 142, 19, 1));
+          
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            color: linear-gradient(to right, rgba(242, 123, 19, 1), rgba(242, 142, 19, 1))
+}
+
 
 footer p a {
 	margin: 5px 15px;
