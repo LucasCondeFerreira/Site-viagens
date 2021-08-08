@@ -116,8 +116,31 @@ header nav ul li a:hover {
   
 }
 
+@media (max-width: 721px) {
+
+    .div-video {
+        
+    }
+
+    .video-1 {
+
+        object-fit: cover;
+        z-index: 1;
+        width: 220px;
+        height: 115px;
+        position: relative;
+    }
+
+    .div-video .fundo-imagem {
+        width: 340px;
+        height: 200px;
+        position: absolute;
+    }
+}
 
 
+ @media (min-width: 721px){
+            
         
     .div-video {
         /* Esse elemento está aqui só para que eu posso me localizar */
@@ -138,6 +161,7 @@ header nav ul li a:hover {
         height: 475px;
         position: absolute;
     }
+}
 
     .div-botao a:hover {
         transform: scale(1.080);
