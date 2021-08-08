@@ -123,15 +123,15 @@ header nav ul li a:hover {
     }
 
     #botao-de-cima {
-        right: 72px;
+        right: 25px;
         position: absolute;
         top: 20px;
     }
 
     .div-video {
-        left: 59px;
+        left: 25px;
         position: absolute;
-        top: 415px;
+        top: 450px;
     }
 
 
@@ -204,8 +204,8 @@ header nav ul li a:hover {
 }
 
 .div-botao {
-    top: 613px;
-    left: 120px;
+    top: 650px;
+    left: 90px;
     position: absolute;
 
 }
@@ -216,8 +216,8 @@ header nav ul li a:hover {
 
 
 .div-texto-botao {
-    top: 652px;
-    left: 113px;
+    top: 680px;
+    left: 85px;
     position: absolute;
     font-style: normal;
     margin-top: 20px;
