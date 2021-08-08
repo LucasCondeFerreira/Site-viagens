@@ -118,8 +118,20 @@ header nav ul li a:hover {
 
 @media (max-width: 721px) {
 
+    .div-principal {
+        padding-bottom: 180px;
+    }
+
+    #botao-de-cima {
+        right: 72px;
+        position: absolute;
+        top: 20px;
+    }
+
     .div-video {
-        
+        left: 59px;
+        position: absolute;
+        top: 415px;
     }
 
 
@@ -192,8 +204,8 @@ header nav ul li a:hover {
 }
 
 .div-botao {
-    top: 663px;
-    left: 146px;
+    top: 613px;
+    left: 120px;
     position: absolute;
 
 }
@@ -204,8 +216,8 @@ header nav ul li a:hover {
 
 
 .div-texto-botao {
-    top: 702px;
-    left: 139px;
+    top: 652px;
+    left: 113px;
     position: absolute;
     font-style: normal;
     margin-top: 20px;
@@ -238,3 +250,4 @@ footer p a {
 	margin: 5px 15px;
     text-decoration: none;
 }
+
