@@ -122,18 +122,20 @@ header nav ul li a:hover {
         
     }
 
-    .video-1 {
 
-        object-fit: cover;
-        z-index: 1;
-        width: 220px;
-        height: 115px;
-        position: relative;
+      .video-1 {
+            top: 11px;
+            left: 40px;
+            object-fit: cover;
+            z-index: 1;
+            width: 252px;
+            height: 137px;
+            position: relative;
     }
 
     .div-video .fundo-imagem {
-        width: 340px;
-        height: 200px;
+        width: 332px;
+        height: 208px;
         position: absolute;
     }
 }
@@ -163,9 +165,6 @@ header nav ul li a:hover {
     }
 }
 
-    .div-botao a:hover {
-        transform: scale(1.080);
-    }
 
 .botao {
     width: 225px;
@@ -192,7 +191,22 @@ header nav ul li a:hover {
         background: linear-gradient(to right, rgba(242, 123, 19, 1), rgba(242, 142, 19, 1))
 }
 
+.div-botao {
+    top: 663px;
+    left: 146px;
+    position: absolute;
+
+}
+
+.div-botao a:hover {
+    transform: scale(1.080);
+}
+
+
 .div-texto-botao {
+    top: 702px;
+    left: 139px;
+    position: absolute;
     font-style: normal;
     margin-top: 20px;
 }
